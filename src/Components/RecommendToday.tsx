@@ -1,4 +1,4 @@
-import EpisodeCard, {type EPisode} from "./EpisodeCard";
+import EpisodeCard, {type Episode} from "./EpisodeCard";
 
 const episodes: Episode[] = [
   { id: 1, image: "/software-unsplash.png", category: "Naija Business Hour", title: "Small Businesses Embrace Digital Payments", duration: "20 mins Listen" },

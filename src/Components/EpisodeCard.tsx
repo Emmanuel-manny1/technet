@@ -9,7 +9,7 @@ export type Episode = {
   isNew?: boolean
 }
 
-const EpisodeCard = ({ image, category, title, duration, isNew }: Episode) => {
+const EpisodeCard = ({ image, category, title, duration }: Episode) => {
   return (
     <article>
       {/* Image + play button */}

@@ -1,5 +1,5 @@
 
-import PresentersCard, {type Presenter} from "./PresentersCard"
+import PresentersCard, {type Present} from "./PresentersCard"
 
 const base = [
     {
@@ -13,7 +13,7 @@ const base = [
     },
 ]
 
-const presenters: Presenter[] = Array.from({ length: 16 }, (_, i) => ({
+const presenters: Present[] = Array.from({ length: 16 }, (_, i) => ({
   id: i + 1,
   ...base[i % base.length],
 }))

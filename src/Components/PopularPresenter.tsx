@@ -1,6 +1,6 @@
-import PresentersCard, {type Presenter} from "./PresentersCard"
+import PresentersCard, {type Present} from "./PresentersCard"
 
-const presenters: Presenter[] = [
+const presenters: Present[] = [
 
     {
         id: 1,

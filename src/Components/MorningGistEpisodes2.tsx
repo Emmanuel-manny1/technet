@@ -1,8 +1,8 @@
-import EpisodeCard, {type EPisode} from "./EpisodeCard";
+import EpisodeCard, {type Episode} from "./EpisodeCard";
 
 const episodes: Episode[] = [
   { id: 1, image: "/software-unsplash.png", category: "Naija Business Hour", title: "Small Businesses Embrace Digital Payments", duration: "20 mins Listen" },
-  { id: 2, image: "three-women.png", category: "Street Talk Naija", title: "Should Friends Always Tell You the Truth?", duration: "30 mins Listen" },
+  { id: 2, image: "/three-women.png", category: "Street Talk Naija", title: "Should Friends Always Tell You the Truth?", duration: "30 mins Listen" },
   {
     id: 3,
     image: "/man.png",

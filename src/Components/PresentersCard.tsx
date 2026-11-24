@@ -1,10 +1,10 @@
-export type Presenter = {
+export type Present = {
     id: number
     image: string
     title:string
 }
 
-const PresentersCard = ( {image, title}: Presenter) => {
+const PresentersCard = ( {image, title}: Present) => {
   return (
     <section>
       <div className= "flex items-end justify-center bg-[#FEC021] aspect-[6/5] overflow-hidden rounded-lg ">
